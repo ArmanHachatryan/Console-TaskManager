@@ -1906,11 +1906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\winne\\Desktop\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "projectUniqueName": "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
       "projectName": "TaskManager",
-      "projectPath": "C:\\Users\\winne\\Desktop\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "projectPath": "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
       "packagesPath": "C:\\Users\\winne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\winne\\Desktop\\TaskManager\\TaskManager\\TaskManager\\obj\\",
+      "outputPath": "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\winne\\AppData\\Roaming\\NuGet\\NuGet.Config",

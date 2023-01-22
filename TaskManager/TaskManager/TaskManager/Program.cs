@@ -1,7 +1,5 @@
 ﻿using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using System.IO;
-using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using TaskManager.DataBaseConfiguration;

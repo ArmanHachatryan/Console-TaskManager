@@ -14,6 +14,7 @@ namespace TaskManager.DataBaseConfiguration
         public DbStorage(DbContextOptions<DbStorage> options):
             base(options)
         {
+            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 

@@ -12,16 +12,16 @@ class MenuService : IMenuService
     private readonly ICreateTaskService _createTaskService;
     private readonly IShowTasksService _showTasksService;
     private readonly IChangeStatusService _changeStatusService;
-    private readonly IValidator _tools;
+    private readonly IValidator _validator;
 
     public MenuService(IDbStorage storage, ICreateTaskService createService,
-        IShowTasksService showService, IChangeStatusService changeStatusService, IValidator tools)
+        IShowTasksService showService, IChangeStatusService changeStatusService, IValidator validator)
     {
         _storage = storage;
         _createTaskService = createService;
         _showTasksService = showService;
         _changeStatusService = changeStatusService;
-        _tools = tools;
+        _validator = validator;
     }
 
 
@@ -42,7 +42,7 @@ class MenuService : IMenuService
         while (isFinish)
         {
             Message();
-            int key = _tools.Validation();
+            int key = _validator.Validation();
 
             switch (key)
             {

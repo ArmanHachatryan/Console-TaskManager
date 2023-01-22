@@ -10,33 +10,25 @@ namespace TaskManager.TaskServices.TaskActions
     internal class ChangeStatusService : IChangeStatusService
     {
         private readonly IDbStorage _storage;
+        private readonly IValidator _validator;
 
-        public ChangeStatusService(IDbStorage storage)
+        public ChangeStatusService(IDbStorage storage, IValidator validator)
         {
             _storage = storage;
-        }
-
-        public int Validation()
-        {
-            var inputData = Console.ReadLine();
-            if (int.TryParse(inputData, out int id))
-            {
-                return id;
-            }
-            return -1;
+            _validator = validator;
         }
 
         public void DoAction()
         {
             Console.WriteLine("Выбери задачу");
-            int id = Validation();
+            int id = _validator.Validation();
             var task = _storage.Tasks.FirstOrDefault(p => p.Id == id);
 
             if (task != null)
             {
                 Console.WriteLine("Выбери на какой статус заменить");
                 Console.WriteLine("1. Выполняется\n2. Остановлено \n3. Завершено ");
-                int key = Validation();
+                int key = _validator.Validation();
 
                 switch (key)
                 {
@@ -59,7 +51,6 @@ namespace TaskManager.TaskServices.TaskActions
                         break;
                 }
                 _storage.Save();
-                Console.WriteLine("Статус изменен");
             }
             else
             {

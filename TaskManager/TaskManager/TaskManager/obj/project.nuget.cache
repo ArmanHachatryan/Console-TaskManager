@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3FwNnaEDY/0AHUzxQW5lcdQORc2esojQcS9zkjWg7v3KGAmHcfrzHzFDhywHiuZWRgCm1UQru4SlhMlukDWlXA==",
+  "dgSpecHash": "OssQtIeKKeLbVdWbLER6aBBqAkx2CLS1l0I9pQZysavyWtxFtBI9+urpEPrp0lOD13U+5jIYbEW+9aJFxx00fQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\winne\\Desktop\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+  "projectFilePath": "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\winne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\winne\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.5\\microsoft.data.sqlite.core.6.0.5.nupkg.sha512",

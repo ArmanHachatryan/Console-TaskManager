@@ -14,17 +14,18 @@ namespace TaskManager.TaskServices.TaskActions
         public ShowTasksService(IDbStorage storage)
         {
             _storage = storage;
+
         }
 
         public void DoAction()
         {
-            Console.WriteLine("Список задач");
+            Console.WriteLine("Список задач\n");
             var tasks = _storage.Tasks.Select(p => p);
             foreach (var task in tasks)
             {
                 Console.WriteLine($"{task.Id}.{task.Name} - " +
                     $"({task.Status}) Затрачено времени " +
-                    $"{(task.DateTime.Hours)}:{(task.DateTime.Minutes)}:{(task.DateTime.Seconds)}");
+                    $"{(task.DateTime.Hours)}:{(task.DateTime.Minutes)}:{(task.DateTime.Seconds)}\n");
             }
         }
     }
