@@ -1,23 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TaskManager.DataBaseConfiguration;
-using TaskManager.TaskServices.TaskActions;
+﻿using TaskManager.TaskServices.TaskActions;
 
 class MenuService : IMenuService
 {
-    private readonly IDbStorage _storage;
     private readonly ICreateTaskService _createTaskService;
     private readonly IShowTasksService _showTasksService;
     private readonly IChangeStatusService _changeStatusService;
     private readonly IValidator _validator;
 
-    public MenuService(IDbStorage storage, ICreateTaskService createService,
+    public MenuService(ICreateTaskService createService,
         IShowTasksService showService, IChangeStatusService changeStatusService, IValidator validator)
     {
-        _storage = storage;
         _createTaskService = createService;
         _showTasksService = showService;
         _changeStatusService = changeStatusService;
