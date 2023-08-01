@@ -21,12 +21,12 @@ class Program : DbContext
         return Host.CreateDefaultBuilder(args)
             .ConfigureServices(services =>
             {
-                services.AddDbContextPool<DbStorage, DbStorage>(options =>
+                services.AddDbContextPool<IDbStorage, DbStorage>(options =>
                 {
                     options.UseSqlite("Data Source=Task.db");
                     options.UseLoggerFactory(ConsoleLoggerFactory);
                 });
-                services.AddScoped<IDbStorage, DbStorage>();
+                //services.AddScoped<IDbStorage, DbStorage>();
                 services.AddScoped<ICreateTaskService, CreateTaskService>();
                 services.AddScoped<IShowTasksService, ShowTasksService>();
                 services.AddScoped<IChangeStatusService, ChangeStatusService>();

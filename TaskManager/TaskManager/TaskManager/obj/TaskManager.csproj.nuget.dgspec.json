@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj": {}
+    "C:\\Users\\useradmin\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj": {
+    "C:\\Users\\useradmin\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+        "projectUniqueName": "C:\\Users\\useradmin\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
         "projectName": "TaskManager",
-        "projectPath": "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
-        "packagesPath": "C:\\Users\\winne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\winne\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\obj\\",
+        "projectPath": "C:\\Users\\useradmin\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+        "packagesPath": "C:\\Users\\useradmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\useradmin\\Documents\\GitHub\\ConsoleTaskManager\\TaskManager\\TaskManager\\TaskManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\winne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\useradmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +73,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
